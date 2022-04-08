@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira páginas com estilos baseadas em seletores</title>
+    <style>
+        /* Estilos baseados em seletores de elementos */
+        div{
+            width: 300px;
+            height: 150px;
+            background-color: rgb(219, 180, 133);
+            margin: 10px;
+            border: 1px solid rgba(158, 104, 79, 0.959);
+        }
+
+        /* Estilos baseados em seletores de atributos */
+        p[name="par3"], p[name="par2"]{
+            color:rgb(199, 117, 41);
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <p>Conteúdo de texto dentro da primeira div</p>
+    </div>
+    <div>
+        <p name="par2">Conteúdo de texto dentro da segunda div</p>
+    </div>
+    <div>
+        <p name="par3">Conteúdo de texto dentro da terceira div</p>
+    </div>
+</body>
+</html>
