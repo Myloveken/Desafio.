@@ -9,6 +9,6 @@
 - HTML
 - CSS
 
-## Ferramenta
+## Imagem
 
 ![logo.facebook]( https://www.logo.wine/a/logo/Facebook/Facebook-f_Logo-Blue-Logo.wine.svg )
